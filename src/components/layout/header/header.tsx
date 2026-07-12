@@ -31,12 +31,6 @@ export const Header = () => {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/80">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/logoBlack.svg"
-            alt="Colabore logo"
-            width={70}
-            height={70}
-          />
           <div className="flex flex-col">
             <span className="text-lg font-semibold tracking-tight text-foreground">
               Colabore

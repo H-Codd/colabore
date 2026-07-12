@@ -22,13 +22,7 @@ export const AppSidebar = () => {
       <div className="flex h-full flex-col">
         <DialogHeader className="border-b p-4">
           <div className="flex items-center gap-3">
-              <Image src="/logoBlack.svg" alt="Colabore logo" width={70} height={70} />
-            <div>
               <DialogTitle className="text-left">Colabore</DialogTitle>
-              <DialogDescription className="text-left">
-                Gerencie seu trabalho em um só lugar.
-              </DialogDescription>
-            </div>
           </div>
         </DialogHeader>
 
