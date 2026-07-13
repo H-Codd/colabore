@@ -1,8 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import { LayoutGrid } from "lucide-react";
+import { LayoutGrid, Users, BarChart3 } from "lucide-react";
 import {
   DialogContent,
   DialogDescription,
@@ -12,8 +11,10 @@ import {
 
 const sidebarItems = [
   { label: "Início", href: "/", icon: LayoutGrid },
-  { label: "Projetos", href: "/projects", icon: LayoutGrid },
   { label: "Dashboard", href: "/dashboard", icon: LayoutGrid },
+  { label: "Projetos", href: "/projects", icon: LayoutGrid },
+  { label: "Equipe", href: "/team", icon: Users },
+  { label: "Relatórios", href: "/reports", icon: BarChart3 },
 ];
 
 export const AppSidebar = () => {
@@ -22,7 +23,7 @@ export const AppSidebar = () => {
       <div className="flex h-full flex-col">
         <DialogHeader className="border-b p-4">
           <div className="flex items-center gap-3">
-              <DialogTitle className="text-left">Colabore</DialogTitle>
+            <DialogTitle className="text-left">Colabore</DialogTitle>
           </div>
         </DialogHeader>
 
